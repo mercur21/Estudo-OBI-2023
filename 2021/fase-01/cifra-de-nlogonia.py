@@ -10,7 +10,7 @@ u = alfabeto.index("u") #20
 
 
 while True:
-     P = str(input("Uma palavra de 1 a 30 caracteres: "))
+     P = str(input())
      if len(P) < 30 and len(P) >= 1:
          break
 
@@ -36,6 +36,6 @@ for i in range(len(P1)):
         P1[i] += alfabeto[x1] + alfabeto[x2]
 
 
-print(f"Lista: {P1}")
+# print(f"Lista: {P1}")
 cifra = "".join(P1)
-print(f"Palavra cifrada: {cifra}")
+print(cifra)
