@@ -8,7 +8,7 @@ while True:
     if n == 0 and len(soma) > 1:
         soma.pop(-1)
         soma.pop(-1)
-    if x == 11:
+    if x == 4:
         break
 
 if len(soma) >= 1:

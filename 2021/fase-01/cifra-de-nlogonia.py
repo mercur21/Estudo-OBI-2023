@@ -17,10 +17,9 @@ while True:
 P1 = list(P)
 
 for i in range(len(P1)):
-    q = P1[i]
     if P1[i] in consoantes:
         x = alfabeto.index(P1[i])
-        if x == 1 or x == 2 or x == 22 or x == 23:
+        if x == 1 or x == 2 or x == 22:
             x1 = 0 #a
         if x == 3 or x == 5 or x == 6:
             x1 = 4 #e
@@ -36,6 +35,4 @@ for i in range(len(P1)):
         P1[i] += alfabeto[x1] + alfabeto[x2]
 
 
-# print(f"Lista: {P1}")
-cifra = "".join(P1)
-print(cifra)
+print("".join(P1))
